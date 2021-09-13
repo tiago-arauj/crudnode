@@ -6,7 +6,7 @@ server.use(express.json());
 
 
 // CRUD
-const estudo = ['Backend', 'Desenvolvimento web', 'Evoluir']; 
+const estudo = ['javascript', 'node', 'React']; 
 // listar estudo
 server.get('/estudo/:index', (req, res) => {
     const { index } = req.params;
